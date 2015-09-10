@@ -1,0 +1,288 @@
+body {
+  background: #929292;
+  font-family: "Helvetica Neue";
+  margin: auto;
+  width: 1280px;
+  font-size: .75em;
+}
+
+h1, h2, p, ul { 
+  color: #ffdd00;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+h1 { 
+  font-size: 3em;
+  line-height: 115%;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+h2 { 
+  font-size: 1.5em;
+  color: #fff;
+}
+
+h3 {
+  font-size: 3em;
+  color: #fff;
+  font-style: italic;
+  margin: 0;
+}
+
+a {
+  color: #8bbf36;
+}
+
+a:not(:hover) {
+  text-decoration: none;
+}
+
+ul { font-size: 40px; }
+
+.stack {
+  font-family: 'Roboto', sans-serif;
+  background: #2b2b2b;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  display: none;
+  font-size: 48px;
+  height: 800px;
+  padding: 40px 80px;
+  width: 1280px;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.stack::after {
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#me h2 {
+  text-transform: none;
+}
+
+#me::after {
+  background: url(../images/tea-reflection-bw.png) no-repeat 0 0;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+#ntu::after {
+  background: url(../images/ntu.png) no-repeat 50% 50%;
+  background-size: 65%;
+  opacity: 1;
+  background-color: #fff;
+}
+
+#paris::after {
+  background: url(../images/paris.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#tools::after {
+  background: url(../images/tools.png) no-repeat 50% 50%;
+  background-size: cotain;
+  opacity: 1;
+}
+
+#pandr::after {
+  background: url(../images/pandr.jpg) no-repeat 0 0;
+  opacity: 1;
+}
+
+#rakkit::after {
+  background: url(../images/rakkit-screenshot.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#tfof::after {
+  background: url(../images/405.jpg) no-repeat 0 0;
+  opacity: 1;
+}
+
+#upstate h1 {
+  text-transform: none;
+}
+
+#upstate::after {
+  background: url(../images/upstate.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#akin::after {
+  background: url(../images/akin.png) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#akin-screenshot::after {
+  background: url(../images/akin-screenshot.png) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#seamso::after {
+  background: url(../images/seamso-logo.svg) no-repeat 50% 50%;
+  background-size: 60%;
+  background-color: #fefefe;
+  opacity: 1;
+}
+
+#seamso-screenshot::after {
+  background: url(../images/seamso-screenshot.png) no-repeat 0 0;
+  background-size: cover;
+  background-color: #fefefe;
+  opacity: 1;
+}
+
+#sisu::after {
+  background: url(../images/sisu.jpg) no-repeat 50% 50%;
+  background-color: #373737;
+  opacity: 1;
+}
+
+#sisu-screenshot::after {
+  background: url(../images/sisu-screenshot.png) no-repeat 0 0;
+  background-size: cover;
+  background-color: #fefefe;
+  opacity: 1;
+}
+
+#skills::after {
+  background: url(../images/skills.gif) no-repeat 0 0;
+  background-size: cover;
+}
+
+#challenges h1 {
+  position: absolute;
+  bottom: 0;
+}
+
+#challenges::after {
+  background: url(../images/challenges.png) no-repeat 0 0;
+  background-size: cover;
+}
+
+/* WXG */
+#build h1 {
+  font-size: 3.4em;
+}
+
+#build::after {
+  background: url(./images/sys_admin.gif) no-repeat 0 0;
+  background-size: cover;
+}
+
+#investor h1 {
+  font-size: 4em;
+  line-height: 115%;
+}
+
+#investor::after {
+  background: url(./images/cash-2.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+#idea::after {
+  background: url(./images/cat-1.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#prototype::after {
+  background: url(./images/cat-2.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#cat-urling::after {
+  background: url(./images/cat-3.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#kiss::after {
+  background: url(./images/kiss.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+#taggart::after {
+  background: url(./images/taggart-screenshot.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+.x-small h1 {
+  font-size: 2em;
+}
+
+.smaller h1 {
+  font-size: 3.2em;
+}
+
+.smaller h2 {
+  font-size: 2em;
+}
+
+.large h1 {
+  font-size: 4em;
+}
+
+.x-large h1 {
+  font-size: 5em;
+}
+
+.curling.special {
+  text-align: left;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.active {
+  box-shadow: 0px 4px 8px rgba(0,0,0,.5);
+  display: block;
+  position: fixed;
+}
+
+.grey {
+  color: #969696;
+}
+
+@media
+screen and (max-device-width: 1024px) {
+  body {
+    width: 1200px;
+  }
+
+  .stack {
+    margin: 40px 0;
+  }
+
+  .stack {
+    display: block;
+  }
+}
