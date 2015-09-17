@@ -102,16 +102,102 @@ ul { font-size: 40px; }
   opacity: 1;
 }
 
+#tfof::after {
+  background: url(../images/405.jpg) no-repeat 0 0;
+  opacity: 1;
+}
+
+#bakeoff::after {
+  background: url(../images/bakeoff.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#taggart::after {
+  background: url(../images/taggart-screenshot.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
 #rakkit::after {
   background: url(../images/rakkit-screenshot.jpg) no-repeat 0 0;
   background-size: cover;
   opacity: 1;
 }
 
-#tfof::after {
-  background: url(../images/405.jpg) no-repeat 0 0;
+#investor::after {
+  background: url(../images/cash-2.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+#idea::after {
+  background: url(../images/cat-1.gif) no-repeat 0 0;
+  background-size: cover;
   opacity: 1;
 }
+
+#prototype::after {
+  background: url(../images/cat-2.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#cat-urling::after {
+  background: url(../images/cat-3.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#pingle::after {
+  background: url(../images/pingle.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#pingle-marketing::after {
+  background: url(../images/pingle-marketing.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#pingleLesson::after {
+ background: url(../images/guys.gif) no-repeat center center fixed;
+  background-size: cover;
+  opacity: 1; 
+}
+
+#akin::after {
+  background: url(../images/akin.png) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#akin-screenshot::after {
+  background: url(../images/akin-v2.png) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#akin-screenshot2::after {
+  background: url(../images/akin-search-v2.png) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#akin-screenshot3::after {
+  background: url(../images/akin-results-v2.png) no-repeat center center;
+  background-size: auto 95% ;
+  opacity: 1;
+}
+
+#akinLesson::after {
+  background: url(../images/facebook.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1; 
+}
+
+
 
 #upstate h1 {
   text-transform: none;
@@ -123,17 +209,7 @@ ul { font-size: 40px; }
   opacity: 0.7;
 }
 
-#akin::after {
-  background: url(../images/akin.png) no-repeat 0 0;
-  background-size: cover;
-  opacity: 1;
-}
 
-#akin-screenshot::after {
-  background: url(../images/akin-screenshot.png) no-repeat 0 0;
-  background-size: cover;
-  opacity: 1;
-}
 
 #seamso::after {
   background: url(../images/seamso-logo.svg) no-repeat 50% 50%;
@@ -178,7 +254,7 @@ ul { font-size: 40px; }
 }
 
 /* WXG */
-#build h1 {
+/*#build h1 {
   font-size: 3.4em;
 }
 
@@ -192,26 +268,8 @@ ul { font-size: 40px; }
   line-height: 115%;
 }
 
-#investor::after {
-  background: url(./images/cash-2.gif) no-repeat 0 0;
-  background-size: cover;
-  opacity: 0.8;
-}
-
 #idea::after {
   background: url(./images/cat-1.gif) no-repeat 0 0;
-  background-size: cover;
-  opacity: 1;
-}
-
-#prototype::after {
-  background: url(./images/cat-2.gif) no-repeat 0 0;
-  background-size: cover;
-  opacity: 1;
-}
-
-#cat-urling::after {
-  background: url(./images/cat-3.gif) no-repeat 0 0;
   background-size: cover;
   opacity: 1;
 }
@@ -226,7 +284,7 @@ ul { font-size: 40px; }
   background: url(./images/taggart-screenshot.jpg) no-repeat 0 0;
   background-size: cover;
   opacity: 1;
-}
+}*/
 
 
 
