@@ -197,7 +197,45 @@ ul { font-size: 40px; }
   opacity: 1; 
 }
 
+#sisu::after {
+  background: url(../images/sisu.jpg) no-repeat 50% 50%;
+  background-color: #373737;
+  opacity: 1;
+}
 
+#sisuReddit::after {
+  background: url(../images/sisu-reddit.png) no-repeat 50% 50%;
+  background-size: 95% auto;
+  background-color: #ececec;
+  opacity: 1;
+}
+
+#sisu-screenshot::after {
+  background: url(../images/sisu-screenshot.png) no-repeat 0 0;
+  background-size: cover;
+  background-color: #fefefe;
+  opacity: 1;
+}
+
+#sisu-clocked::after {
+  background: url(../images/sisu-clocked-pair.png) no-repeat 50% 50%;
+  background-size: auto 90%;
+  background-color: #fefefe;
+  opacity: 1;
+}
+
+#sisu-gift::after {
+  background: url(../images/sisu-gift.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#sisu-marathons::after {
+  background: url(../images/sisu-marathons.png) no-repeat 50% 50%;
+  background-size: auto 98%;
+  background-color: #303030;
+  opacity: 1;
+}
 
 #upstate h1 {
   text-transform: none;
@@ -209,8 +247,6 @@ ul { font-size: 40px; }
   opacity: 0.7;
 }
 
-
-
 #seamso::after {
   background: url(../images/seamso-logo.svg) no-repeat 50% 50%;
   background-size: 60%;
@@ -220,19 +256,6 @@ ul { font-size: 40px; }
 
 #seamso-screenshot::after {
   background: url(../images/seamso-screenshot.png) no-repeat 0 0;
-  background-size: cover;
-  background-color: #fefefe;
-  opacity: 1;
-}
-
-#sisu::after {
-  background: url(../images/sisu.jpg) no-repeat 50% 50%;
-  background-color: #373737;
-  opacity: 1;
-}
-
-#sisu-screenshot::after {
-  background: url(../images/sisu-screenshot.png) no-repeat 0 0;
   background-size: cover;
   background-color: #fefefe;
   opacity: 1;
