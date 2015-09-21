@@ -91,9 +91,9 @@ ul { font-size: 40px; }
   opacity: 1;
 }
 
-#tools::after {
-  background: url(../images/tools.png) no-repeat 50% 50%;
-  background-size: cotain;
+#build::after {
+  background: url(../images/tools.png) no-repeat center center;
+  background-size: cover;
   opacity: 1;
 }
 
@@ -108,14 +108,22 @@ ul { font-size: 40px; }
 }
 
 #bakeoff::after {
-  background: url(../images/bakeoff.jpg) no-repeat 0 0;
-  background-size: cover;
+  /*background: url(../images/bakeoff.jpg) no-repeat 0 0;*/
+  background: url(../images/bakeoff/bakeoff-collage.png) no-repeat center center;
+  background-size: auto 94%;
   opacity: 1;
 }
 
 #taggart::after {
   background: url(../images/taggart-screenshot.jpg) no-repeat 0 0;
   background-size: cover;
+  opacity: 1;
+}
+
+#lifespan::after {
+  background: url(../images/lifespan.png) no-repeat center center;
+  background-size: auto 90%;
+  background-color: #fff;
   opacity: 1;
 }
 
@@ -143,6 +151,11 @@ ul { font-size: 40px; }
   opacity: 1;
 }
 
+#kiss::after {
+  background: url(../images/kiss.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
 #cat-urling::after {
   background: url(../images/cat-3.gif) no-repeat 0 0;
   background-size: cover;
@@ -156,15 +169,28 @@ ul { font-size: 40px; }
 }
 
 #pingle-marketing::after {
-  background: url(../images/pingle-marketing.jpg) no-repeat 0 0;
+  background: url(../images/pingle-marketing.jpg) no-repeat center center;
+  background-size: auto 98%;
+  opacity: 1;
+  background-color: #fff;
+}
+
+#betaLessonOne::after {
+  background: url(../images/bad-beta-email.png) no-repeat center center fixed;
+  opacity: 1;
+  background-color: #343e48;
+}
+
+#pingleLesson::after {
+  background: url(../images/guys.gif) no-repeat center center fixed;
   background-size: cover;
   opacity: 1;
 }
 
-#pingleLesson::after {
- background: url(../images/guys.gif) no-repeat center center fixed;
-  background-size: cover;
-  opacity: 1; 
+#coffee h1 {
+  margin-top: 100px;
+  font-size: 1.8em;
+  text-transform: none;
 }
 
 #akin::after {
@@ -197,6 +223,12 @@ ul { font-size: 40px; }
   opacity: 1; 
 }
 
+#rugby::after {
+  background: url(../images/rugby.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1; 
+}
+
 #sisu::after {
   background: url(../images/sisu.jpg) no-repeat 50% 50%;
   background-color: #373737;
@@ -222,6 +254,12 @@ ul { font-size: 40px; }
   background-size: auto 90%;
   background-color: #fefefe;
   opacity: 1;
+}
+
+#sisu-zwift::after {
+  background: url(../images/sisu-zwift.jpg) no-repeat center center;
+  background-size: 100% auto;
+  opacity: 1; 
 }
 
 #sisu-gift::after {
@@ -261,58 +299,65 @@ ul { font-size: 40px; }
   opacity: 1;
 }
 
-#skills::after {
-  background: url(../images/skills.gif) no-repeat 0 0;
-  background-size: cover;
-}
-
-#challenges h1 {
-  position: absolute;
-  bottom: 0;
-}
-
-#challenges::after {
-  background: url(../images/challenges.png) no-repeat 0 0;
-  background-size: cover;
-}
-
-/* WXG */
-/*#build h1 {
-  font-size: 3.4em;
-}
-
-#build::after {
-  background: url(./images/sys_admin.gif) no-repeat 0 0;
-  background-size: cover;
-}
-
-#investor h1 {
-  font-size: 4em;
-  line-height: 115%;
-}
-
-#idea::after {
-  background: url(./images/cat-1.gif) no-repeat 0 0;
+#seamso-learn::after {
+  background: url(../images/seamso-lesson.gif) no-repeat center center;
   background-size: cover;
   opacity: 1;
 }
 
-#kiss::after {
-  background: url(./images/kiss.jpg) no-repeat 0 0;
+#skills::after {
+  background: url(../images/skills.gif) no-repeat 0 0;
   background-size: cover;
   opacity: 0.5;
 }
 
-#taggart::after {
-  background: url(./images/taggart-screenshot.jpg) no-repeat 0 0;
+#twitter::after {
+  background: url(../images/twitter-logo.png) no-repeat center center;
+  background-size: 40% auto;
+  background-color: #fefefe;
+  opacity: 1;
+}
+
+#buildingAudience::after {
+  background: url(../images/audience.jpg) no-repeat center center;
+  background-size: cover;
+  opacity: 1; 
+}
+
+#lmn::after {
+  background: url(../images/lmn.gif) no-repeat center center;
   background-size: cover;
   opacity: 1;
-}*/
+}
 
+#lmnEmail::after {
+  background: url(../images/lmn-email.png) no-repeat center center;
+  background-size: 95% auto;
+  opacity: 1;
+  background-color: #fff;
+}
 
+#seamsoAudience ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  font-size: 0.63em;
+  line-height: 135%;
+}
 
+#seamsoAudience ul li {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  margin: 0 4%;
+  display: inline-block;
+}
 
-
+#seamsoAudience ul li:nth-child(3n+1),
+#seamsoAudience ul li:nth-child(3n+3) {
+  margin: 0;
+}
 
 
 .x-small h1 {
