@@ -299,6 +299,12 @@ ul { font-size: 40px; }
   opacity: 1;
 }
 
+#seamso-screenshot h1 {
+  color: #fff;
+  font-size: 2em;
+  margin-left: -40px;
+}
+
 #seamso-screenshot::after {
   background: url(../images/seamso-screenshots.png) no-repeat center bottom;
   background-size: 100% auto;
