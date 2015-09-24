@@ -235,6 +235,13 @@ ul { font-size: 40px; }
   opacity: 1;
 }
 
+#sisuInstagram::after {
+  background: url(../images/sisu-instagram.png) no-repeat 50% 50%;
+  background-size: cover;
+  /*background-color: #ececec;*/
+  opacity: 1;
+}
+
 #sisuReddit::after {
   background: url(../images/sisu-reddit.png) no-repeat 50% 50%;
   background-size: 95% auto;
@@ -293,6 +300,13 @@ ul { font-size: 40px; }
 }
 
 #seamso-screenshot::after {
+  background: url(../images/seamso-screenshots.png) no-repeat center bottom;
+  background-size: 100% auto;
+  background-color: #f56237;
+  opacity: 1;
+}
+
+#seamso-screenshot2::after {
   background: url(../images/seamso-screenshot.png) no-repeat 0 0;
   background-size: cover;
   background-color: #fefefe;
@@ -337,6 +351,10 @@ ul { font-size: 40px; }
   background-color: #fff;
 }
 
+#seamsoAudience {
+  background-color: #fefefe;
+}
+
 #seamsoAudience ul {
   padding: 0;
   margin: 0;
@@ -344,6 +362,7 @@ ul { font-size: 40px; }
   list-style: none;
   font-size: 0.63em;
   line-height: 135%;
+  color: #fb4246;
 }
 
 #seamsoAudience ul li {
